@@ -1,0 +1,962 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: BalooDa-Regular;
+  src: url(BalooDa-Regular.ttf);
+}
+@font-face {
+  font-family: Baloo2-VariableFont_wght;
+  src: url(Baloo2-VariableFont_wght.ttf);
+}
+body {
+  overflow-x: hidden;
+}
+body h2 {
+  font-family: BalooDa-Regular;
+  font-size: 45px;
+}
+body p {
+  font-family: Baloo2-VariableFont_wght;
+}
+
+.sho .gevha {
+  position: absolute;
+  top: 19px;
+  right: 0px;
+  margin: 0px 40px;
+  display: none;
+}
+.sho .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #F5DAD2;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sho .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.sho .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #322C2B;
+  display: block;
+  transition: 0.3s;
+}
+.sho .overlay a:hover, .sho .overlay a:focus {
+  color: #f1f1f1;
+}
+.sho .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: BalooDa-Regular;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(5, 3, 24);
+  font-size: 36px;
+  margin-right: 50px;
+  color: rgb(2, 62, 84);
+}
+.navigation a span {
+  color: rgb(215, 123, 65);
+  padding: 0;
+}
+.navigation img {
+  width: 100%;
+  padding: 0px 20PX 20PX 13PX;
+}
+
+.muna {
+  margin-left: 63px;
+  margin-right: 63px;
+}
+.muna h1 {
+  font-size: 78px;
+  font-family: BalooDa-Regular;
+  font-weight: bolder;
+  margin-left: 13px;
+  color: rgb(0, 62, 84);
+}
+.muna h2 {
+  font-weight: bolder;
+  margin-bottom: 15px;
+  margin-left: 13px;
+  color: rgb(0, 62, 84);
+}
+.muna h2 span {
+  color: rgb(215, 123, 65);
+  margin-bottom: 48px;
+}
+.muna p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-family: BalooDa-Regular;
+  margin-left: 13px;
+  color: rgb(0, 62, 84);
+}
+.muna .line {
+  width: 80px;
+  color: rgb(215, 123, 65);
+  border: 2px solid rgb(215, 123, 65);
+  margin: 3px;
+  display: inline-block;
+}
+.muna .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.muna .images .img2 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 57vh;
+}
+.muna .images .img1 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 58vh;
+}
+.muna .images .real {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 34vh;
+  margin-top: 147px;
+  padding: 0 13px;
+}
+.muna .images .demo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-top: 11px;
+}
+.muna .images .fail {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.muna .git {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.muna .git .cool {
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 10%;
+  padding-top: 11px;
+  height: 9vh;
+}
+.muna .git .fill {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-top: 11px;
+  height: 9vh;
+  opacity: 10%;
+}
+.muna .git .fear {
+  opacity: 10%;
+  padding-top: 11px;
+  height: 9vh;
+  width: 296px;
+}
+.muna .git .king {
+  opacity: 10%;
+  padding-top: 11px;
+  height: 9vh;
+  margin-left: 0px;
+  width: 300px;
+}
+
+.about {
+  margin: 120px 60px 120px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about h2 {
+  color: rgb(215, 123, 65);
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Baloo2-VariableFont_wght;
+  color: rgb(5, 3, 24);
+  line-height: 1.8;
+}
+.about img {
+  width: 100%;
+  height: 60vh;
+  margin: 0 40px;
+}
+
+.services {
+  padding: 77px 6px 77px 60px;
+  background-color: #0b394d;
+}
+.services h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+.services .card {
+  width: 350px;
+  background-color: rgb(0, 62, 84);
+}
+.services .card h5 {
+  font-family: BalooDa-Regular;
+  color: rgb(215, 123, 65);
+  font-size: 30px;
+}
+.services .card p {
+  color: white;
+}
+.services .line {
+  color: rgb(215, 123, 65);
+  width: 300px;
+  border: 1px solid rgb(215, 123, 65);
+  display: flex;
+}
+.services img {
+  width: 100%;
+}
+
+.career {
+  margin: 100px 70px 100px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.career h2 {
+  color: rgb(215, 123, 65);
+  font-weight: bolder;
+  margin-bottom: 40px;
+  font-family: BalooDa-Regular;
+}
+.career a {
+  background-color: #0b394d;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  padding: 15px 35px 15px 35px;
+  margin-top: 20px;
+}
+.career img {
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer {
+  padding: 50px 0 0 60px;
+  background-image: url(/Group\ 9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+.footer h2 {
+  padding-top: 40px;
+  font-weight: bold;
+  margin: 40px 0 15px 20;
+}
+.footer .full {
+  display: flex;
+  justify-content: space-even;
+  align-items: start;
+}
+.footer .full p {
+  margin-left: 15px;
+  font-size: 20px;
+  padding-right: 120px;
+  font-weight: bold;
+}
+.footer .full span {
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Baloo2-VariableFont_wght;
+}
+.footer .full i {
+  margin-left: 0px;
+  margin-top: 8px;
+}
+
+.work {
+  padding: 100px 80px 0px 80px;
+  margin-bottom: 90px;
+  background-color: rgb(243, 244, 246);
+}
+.work img {
+  width: 84%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.work a {
+  padding: 13px 251.4px 13px 251.8px;
+  background-color: rgb(0, 62, 84);
+  color: white;
+  font-family: Baloo2-VariableFont_wght;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.work h2 {
+  color: rgb(215, 123, 65);
+  font-weight: bold;
+  margin-left: 55px;
+}
+.work span {
+  font-family: Baloo2-VariableFont_wght;
+  font-weight: 500;
+  font-size: 20px;
+}
+.work p {
+  margin-left: 78px;
+  font-family: Baloo2-VariableFont_wght;
+  font-weight: 500;
+  font-size: 20px;
+}
+.work .form-control {
+  padding: 15px 20px;
+}
+
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26vh;
+  width: 100%;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .gevha {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: flex;
+    margin: 0;
+  }
+  .navigation img {
+    width: 54%;
+    padding: 0;
+  }
+  .navigation .nav-bar {
+    display: none;
+  }
+  .muna {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .muna h1 {
+    font-size: 33px;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .muna h2 {
+    font-size: 14px;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .muna h2 span {
+    color: rgb(215, 123, 65);
+    margin-bottom: 48px;
+  }
+  .muna p {
+    font-size: 11px;
+    margin-bottom: 16px;
+    font-family: BalooDa-Regular;
+    margin-left: 0px;
+    color: rgb(0, 62, 84);
+  }
+  .muna .line {
+    width: 14px;
+    color: rgb(215, 123, 65);
+    border: 1px solid rgb(215, 123, 65);
+    margin-left: 0;
+  }
+  .muna .images .img2 {
+    display: none;
+  }
+  .muna .images .img1 {
+    display: none;
+  }
+  .muna .images .real {
+    display: none;
+  }
+  .muna .images .demo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding-top: 11px;
+    width: 312px;
+  }
+  .muna .images .fail {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 312px;
+  }
+  .muna .git .cool {
+    display: none;
+  }
+  .muna .git .fill {
+    display: none;
+  }
+  .muna .git .fear {
+    display: none;
+  }
+  .muna .git .king {
+    display: none;
+  }
+  .about {
+    margin: 37px 30px 18px 30px;
+    flex-direction: column;
+  }
+  .about h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .about p {
+    font-size: 11px;
+  }
+  .about img {
+    display: none;
+  }
+  .services {
+    padding: 30px;
+  }
+  .services img {
+    width: 90%;
+  }
+  .services h2 {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .services button {
+    display: none;
+  }
+  .services .card {
+    width: 350px;
+  }
+  .services .card .line {
+    width: 290px;
+  }
+  .services .card h5 {
+    font-size: 14px;
+  }
+  .services .card p {
+    font-size: 12px;
+    padding: 8px 18px 5px 0px;
+  }
+  .career {
+    margin: 40px 30px;
+  }
+  .career h2 {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+  .career a {
+    font-size: 6px;
+    padding: 10px 19px;
+  }
+  .career img {
+    width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .work {
+    padding: 40px 35px 20px 35px;
+    margin-bottom: 40px;
+    background-color: rgb(243, 244, 246);
+  }
+  .work img {
+    display: none;
+  }
+  .work a {
+    padding: 7px 135px 7px 135.7px;
+    background-color: rgb(0, 62, 84);
+    color: white;
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .work h2 {
+    margin-left: 0px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .work span {
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 500;
+    font-size: 9px;
+  }
+  .work p {
+    margin-left: 0px;
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 500;
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .work .form-control {
+    padding: 9px 15px;
+    font-size: 10px;
+  }
+  .work textarea.form-control-lg {
+    height: 80px;
+  }
+  .footer {
+    width: 100%;
+    height: 17vh;
+    padding: 10px 0 0 30px;
+  }
+  .footer h2 {
+    padding: 0;
+    font-size: 14px;
+    margin-top: 21px;
+    margin-bottom: 3px;
+  }
+  .footer .full p {
+    margin-left: 0px;
+    font-size: 7px;
+    margin-right: 32px;
+    margin-bottom: 4px;
+  }
+  .footer .full span {
+    margin-left: 0px;
+    font-size: 7px;
+  }
+  .footer .full i {
+    display: none;
+  }
+  .footer .full p {
+    padding-right: 3px;
+    font-weight: bold;
+  }
+  .ball {
+    width: 100%;
+    height: 14vh;
+  }
+  .ball img {
+    height: 12vh;
+  }
+}
+@media (min-width: 765px) and (max-width: 991.98px) {
+  .navigation a {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+  .navigation a span {
+    padding-right: 30px;
+  }
+  .navigation img {
+    width: 95%;
+    padding: 5px 0PX 10PX 0PX;
+  }
+  .muna {
+    margin-left: 63px;
+    margin-right: 63px;
+  }
+  .muna h1 {
+    font-size: 41px;
+    margin-left: 0px;
+  }
+  .muna h2 {
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  .muna h2 span {
+    color: rgb(215, 123, 65);
+    margin-bottom: 48px;
+  }
+  .muna p {
+    font-size: 12px;
+    margin-bottom: 35px;
+    margin-left: 0;
+  }
+  .muna .line {
+    width: 30px;
+  }
+  .muna .images .img2 {
+    display: none;
+  }
+  .muna .images .img1 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 42vh;
+  }
+  .muna .images .real {
+    display: none;
+  }
+  .muna .images .demo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding-top: 11px;
+    height: 22.6vh;
+  }
+  .muna .images .fail {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 13.4vh;
+    margin-top: 56px;
+  }
+  .muna .git .cool {
+    display: none;
+  }
+  .muna .git .fill {
+    display: none;
+  }
+  .muna .git .fear {
+    display: none;
+  }
+  .muna .git .king {
+    display: none;
+  }
+  .about {
+    margin: 67px 65px 60px 65px;
+    flex-direction: column-reverse;
+  }
+  .about h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .about p {
+    font-size: 16px;
+  }
+  .about img {
+    display: none;
+  }
+  .services {
+    padding: 60px 60px 60px 60px;
+  }
+  .services h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .services .card {
+    width: 200px;
+    padding-left: 20px;
+  }
+  .services .card h5 {
+    font-size: 13px;
+  }
+  .services p {
+    padding: 3px 3px 3px 0;
+    font-size: 8px;
+  }
+  .services .card-body {
+    padding-left: 0;
+  }
+  .services .line {
+    width: 152px;
+  }
+  .services img {
+    width: 110%;
+    margin-left: -19px;
+  }
+  .career {
+    margin: 80px 70px 80px 60px;
+  }
+  .career h2 {
+    margin-bottom: 22px;
+    font-size: 22px;
+  }
+  .career a {
+    background-color: #0b394d;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+  }
+  .work {
+    padding: 100px 80px 56px 68px;
+    margin-bottom: 44px;
+    background-color: rgb(243, 244, 246);
+  }
+  .work img {
+    display: none;
+  }
+  .work a {
+    padding: 13px 274px 13px 274px;
+    background-color: rgb(0, 62, 84);
+    color: white;
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .work h2 {
+    color: rgb(215, 123, 65);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  .work span {
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+  }
+  .work p {
+    margin-left: 78px;
+    font-family: Baloo2-VariableFont_wght;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+  }
+  .work .form-control {
+    padding: 5px 10px;
+    width: 626px;
+    margin-right: 50px;
+  }
+  .work .col-md-6 {
+    flex: 0 0 auto;
+    width: 83%;
+  }
+  .footer {
+    padding: 30px 0 40px 37spx;
+    background-image: url(/Group\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    width: 100%;
+    height: 22vh;
+  }
+  .footer h2 {
+    font-size: 22px;
+    padding: 0;
+    margin: 20px 0 8px 0px;
+  }
+  .footer .full {
+    margin-right: 32px;
+  }
+  .footer .full p {
+    margin-left: 15px;
+    font-size: 12px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+  }
+  .footer .full span {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  .footer .full i {
+    margin-left: 0px;
+    margin-top: 4px;
+  }
+  .ball {
+    width: 100%;
+    height: 14vh;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .navigation a {
+    font-size: 24px;
+    margin-right: 74px;
+  }
+  .navigation img {
+    width: 95%;
+    padding: 0px 20PX 20PX 13PX;
+  }
+  .muna {
+    margin-left: 63px;
+    margin-right: 68px;
+  }
+  .muna h1 {
+    font-size: 54px;
+  }
+  .muna h2 {
+    font-size: 30px;
+  }
+  .muna h2 span {
+    color: rgb(215, 123, 65);
+    margin-bottom: 48px;
+  }
+  .muna p {
+    font-size: 15px;
+  }
+  .muna .line {
+    width: 30px;
+  }
+  .muna .images .img2 {
+    height: 20vh;
+  }
+  .muna .images .img1 {
+    height: 20vh;
+  }
+  .muna .images .real {
+    height: 10vh;
+    padding: 0 12px;
+    margin-top: 138px;
+  }
+  .muna .images .demo {
+    height: 11.9vh;
+  }
+  .muna .images .fail {
+    height: 7vh;
+    margin-top: 16px;
+  }
+  .muna .git .cool {
+    padding-top: 11px;
+    height: 4vh;
+  }
+  .muna .git .fill {
+    padding-top: 11px;
+    height: 4vh;
+  }
+  .muna .git .fear {
+    padding-top: 11px;
+    height: 4vh;
+    width: 292px;
+  }
+  .muna .git .king {
+    padding-top: 11px;
+    height: 4vh;
+    margin-left: 0px;
+    width: 300px;
+  }
+  .about {
+    margin: 90px 60px 90px 90px;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 13px;
+  }
+  .about img {
+    margin: 0 30px;
+  }
+  .about img {
+    width: 100%;
+    height: 24vh;
+  }
+  .about p {
+    font-size: 15px;
+  }
+  .services {
+    padding: 77px 70px 77px 70px;
+    background-color: #0b394d;
+  }
+  .services h2 {
+    font-size: 30px;
+  }
+  .services .card {
+    width: 280px;
+    padding: 0px;
+  }
+  .services .card p {
+    padding-top: 7px;
+    font-size: 13px;
+  }
+  .services .card h5 {
+    font-size: 24px;
+  }
+  .services .card .line {
+    width: 248px;
+  }
+  .services img {
+    width: 100%;
+  }
+  .career {
+    margin: 100px 80px 100px 80px;
+  }
+  .career img {
+    height: 24vh;
+  }
+  .career h2 {
+    font-size: 30px;
+  }
+  .career a {
+    font-size: 16px;
+  }
+  .work {
+    padding: 100px 80px 3px 80px;
+    margin-bottom: 80px;
+  }
+  .work img {
+    width: 100%;
+  }
+  .work a {
+    padding: 13px 167px 13px 167px;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .work h2 {
+    font-size: 30px;
+  }
+  .work span {
+    font-size: 13px;
+  }
+  .work p {
+    font-size: 13px;
+  }
+  .work .form-control {
+    padding: 10px 15px;
+  }
+  .ball {
+    height: 12vh;
+    width: 100%;
+  }
+  .footer {
+    padding: 45px 0 0 60px;
+    width: 100%;
+    height: 22vh;
+  }
+  .footer h2 {
+    padding-top: 40px;
+    font-weight: bold;
+    margin: 40px 0 15px 20;
+    font-size: 30px;
+  }
+  .footer .full {
+    display: flex;
+    justify-content: space-even;
+    align-items: start;
+  }
+  .footer .full p {
+    margin-left: 20px;
+    font-size: 17px;
+    padding-right: 42px;
+  }
+  .footer .full span {
+    margin-left: 20px;
+    font-size: 19px;
+  }
+  .footer .full i {
+    margin-left: 0px;
+    margin-top: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
