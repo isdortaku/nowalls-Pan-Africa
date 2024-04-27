@@ -27,6 +27,7 @@ body p {
   top: 19px;
   right: 0px;
   margin: 0px 40px;
+  display: none;
 }
 .sho .overlay {
   height: 100%;
