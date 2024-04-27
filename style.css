@@ -27,7 +27,6 @@ body p {
   top: 19px;
   right: 0px;
   margin: 0px 40px;
-  display: none;
 }
 .sho .overlay {
   height: 100%;
@@ -461,7 +460,8 @@ body p {
     display: none;
   }
   .services .card {
-    width: 350px;
+    width: 344px;
+    margin-top: 20px;
   }
   .services .card .line {
     width: 290px;
@@ -471,7 +471,7 @@ body p {
   }
   .services .card p {
     font-size: 12px;
-    padding: 8px 18px 5px 0px;
+    padding: 8px 27px 17px 0px;
   }
   .career {
     margin: 40px 30px;
