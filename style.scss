@@ -44,7 +44,7 @@ p{
        top:19px;
        right:0px;
        margin:0px 40px;
-       display: none;
+    //    display: none;
        
    }
    
@@ -500,7 +500,6 @@ p{
 
 @media only screen and (max-width: 575.98px) {
     
- 
     .gevha{
    
         position: absolute;
@@ -510,6 +509,7 @@ p{
         margin:0;
         
     }
+    
     
 
     .navigation{
@@ -798,6 +798,19 @@ textarea.form-control-lg {
 // // // ipad
 @media   (min-width: 765px) and (max-width: 991.98px) {
 
+
+    .sho{
+ 
+        .gevha{
+       
+           position: absolute;
+           top:19px;
+           right:0px;
+           margin:0px 40px;
+           display: none;
+           
+       }
+      }
 
     .navigation{
         
@@ -1095,6 +1108,19 @@ p{
 @media  (min-width: 992px) and (max-width: 1024px) {
 
 
+    .sho{
+ 
+        .gevha{
+       
+           position: absolute;
+           top:19px;
+           right:0px;
+           margin:0px 40px;
+           display: none;
+           
+       }
+      }
+
     .navigation{
 
         a{
@@ -1214,6 +1240,9 @@ p{
 
 
 .about{
+
+  
+   
     img{
         width:100%;height: 24vh;;
     }
@@ -1349,4 +1378,21 @@ p{
 
 
 
+}
+
+@media   (min-width: 1366px)  {
+
+    
+    .sho{
+ 
+        .gevha{
+       
+           position: absolute;
+           top:19px;
+           right:0px;
+           margin:0px 40px;
+           display: none;
+           
+       }
+      }
 }

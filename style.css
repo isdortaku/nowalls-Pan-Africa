@@ -27,7 +27,6 @@ body p {
   top: 19px;
   right: 0px;
   margin: 0px 40px;
-  display: none;
 }
 .sho .overlay {
   height: 100%;
@@ -571,6 +570,13 @@ body p {
   }
 }
 @media (min-width: 765px) and (max-width: 991.98px) {
+  .sho .gevha {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    margin: 0px 40px;
+    display: none;
+  }
   .navigation a {
     font-size: 20px;
     margin-right: 25px;
@@ -783,6 +789,13 @@ body p {
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
+  .sho .gevha {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    margin: 0px 40px;
+    display: none;
+  }
   .navigation a {
     font-size: 24px;
     margin-right: 74px;
@@ -959,5 +972,14 @@ body p {
   .footer .full i {
     margin-left: 0px;
     margin-top: 8px;
+  }
+}
+@media (min-width: 1366px) {
+  .sho .gevha {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    margin: 0px 40px;
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
