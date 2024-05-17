@@ -19,7 +19,7 @@ body h2 {
   font-size: 45px;
 }
 body p {
-  font-family: Baloo2-VariableFont_wght;
+  font-family: "Baloo2-VariableFont_wght";
 }
 
 .sho .gevha {
@@ -38,6 +38,7 @@ body p {
   background-color: #F5DAD2;
   overflow-x: hidden;
   transition: 0.5s;
+  position: absolute;
 }
 .sho .overlay-content {
   position: relative;
@@ -55,7 +56,12 @@ body p {
   transition: 0.3s;
 }
 .sho .overlay a:hover, .sho .overlay a:focus {
-  color: #f1f1f1;
+  color: white;
+  background-color: black;
+  border: 4px solid rgb(215, 123, 65);
+  border-radius: 40px;
+  opacity: 80%;
+  transition: 0.5s ease-in-out;
 }
 .sho .overlay .closebtn {
   position: absolute;
