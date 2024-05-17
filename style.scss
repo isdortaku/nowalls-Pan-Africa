@@ -5,17 +5,17 @@
 
 
 @font-face {
-    font-family: BalooDa-Regular;
+    font-family: "BalooDa-Regular";
     src: url(BalooDa-Regular.ttf);
 }
 
 @font-face{
-    font-family:Baloo2-VariableFont_wght;
+    font-family:"Baloo2-VariableFont_wght";
     src: url(Baloo2-VariableFont_wght.ttf);
 }
 
 // theme colors
-$yellow:rgb(215 ,123 ,65);$bcarousel:rgb(0 ,62, 84);$formtext:rgb(128 ,151 ,160);$mycolor:white;$blue: rgb(5, 3, 24);$font-family:BalooDa-Regular;$second-font:Baloo2-VariableFont_wght;
+$bcarousel:rgb(0 ,62, 84);$formtext:rgb(128 ,151 ,160);$mycolor:white;$blue: rgb(5, 3, 24);$font-family:"BalooDa-Regular";$second-font:"Baloo2-VariableFont_wght";$yellow:rgb(215,123,65);
 
 
 
@@ -646,8 +646,9 @@ p{
     
 
     img{
-        width: 90%;
+        width: 100%;
     }
+
     h2{
         font-size: 14px; margin-bottom: 16px;
       
@@ -1408,4 +1409,46 @@ p{
            
        }
       }
+}
+
+
+@media only screen and (min-width: 1400.98px) {
+
+     
+    .muna .images .demo {
+        -o-object-fit: contain;
+        object-fit: cover;
+        padding-top: 13px;
+        height: 30vh;
+        width: 96%;
+    }
+
+
+    .muna .images .fail {
+      -o-object-fit: contain;
+      object-fit: contain;
+      margin-top: 52px;
+  }
+
+  .muna .images .img1 {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 56vh;
+}
+   
+.muna .images .img2 {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 55vh;
+}
+
+.muna .images .real {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 34vh;
+    margin-top: 156px;
+    padding: 0 13px;
+}
+
+
 }
